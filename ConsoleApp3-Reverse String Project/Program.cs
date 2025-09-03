@@ -6,7 +6,9 @@ class Program
     {
         Console.WriteLine("Welcome. Please input some text: ");
         string userInput = Console.ReadLine();
-        
-        Console.WriteLine(userInput);
+        char[] charArray = userInput.ToCharArray();
+        Array.Reverse(charArray);
+        string userInputReversed = new string(charArray);
+        Console.WriteLine(userInputReversed);
     }
 }

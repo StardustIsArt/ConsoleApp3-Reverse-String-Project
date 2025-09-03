@@ -23,7 +23,6 @@ class Program
                 Console.WriteLine($"{userInput} is a palindrome.");
             }
         }
-       
         
         /* char[] charArray = userInput.ToCharArray();
         Array.Reverse(charArray);
